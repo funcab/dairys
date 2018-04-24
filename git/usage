@@ -1,8 +1,19 @@
 1.install
 
-ubuntu gitbub install & usage http://blog.csdn.net/qq_33052539/article/details/52820032
-some summarys url: http://blog.csdn.net/tina_ttl/article/details/51326684
-^G:ctrl+g
+sudo apt-get update 
+sudo apt-get install git
+
+git config --global user.name "your_ame"  
+git config --global user.email "youremail@domain.com"
+
+ssh-keygen -C 'youremail@domain.com' -t rsa
+
+Continuous press enter and no password set
+
+cd  ~/.ssh/
+more id_rsa.pub
+
+paste it on Settings-ssh and GPG keys-new SSH key-ok
 
 2.change password
 
