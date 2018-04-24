@@ -1,4 +1,4 @@
-1. create table
+- create table
 ```
 row format delimited
 fields terminated by '|'
@@ -6,7 +6,7 @@ lines terminated by '\n'
 stored as textfile;
 ```
 
-1. when use beeline
+- when use beeline
 ```
 run="/bin/beeline -u \"jdbc:hive2://hnedaint06:10001/default;principal=edc_jk/admin@NBDP.COM\""
 ${run}<<EOF
@@ -15,7 +15,7 @@ ${vsql}
 EOF
 ```
 
-1. judge is empty or not
+- judge is empty or not
 
 ```trim``` : remove a blank each for side left and right
 
@@ -28,7 +28,7 @@ if a=null , then a is not null , and a is empty at the same time .
 so to limit a is not empty , use 
 ```length(trim(a))<>0 and a is not null```
 
-1. about join
+- about join
 
 #### (inner) join
 #### Left/right/full (outer) join [where …]
