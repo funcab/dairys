@@ -16,8 +16,8 @@ more id_rsa.pub
 paste it on Settings-ssh and GPG keys-new SSH key-ok
 
 vi ~/.gitconfig
-add follow contents,so that the next time you enter your username and password,
-git can remember that message and you won't have to enter the next time
+after add follow contents,the next time you enter your username and password,
+git can remember that and you won't have to enter later
 [credential]
     helper = store
 
