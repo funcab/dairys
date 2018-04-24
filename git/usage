@@ -1,0 +1,30 @@
+1.install
+
+ubuntu gitbub install & usage http://blog.csdn.net/qq_33052539/article/details/52820032
+some summarys url: http://blog.csdn.net/tina_ttl/article/details/51326684
+^G:ctrl+g
+
+2.change password
+
+cd ~/.ssh/
+ssh-keygen -f id_rsa -p
+cd ~/Document/dockerfiles
+
+3.start a repositories
+
+git init
+touch Readme
+git add Readme
+git commit -m 'add readme file'
+将本地仓库与github仓库关联：
+git remote add origin https://github.com/你的github用户名/你的github仓库.git
+git push origin master
+
+4.clone a repositories
+
+git clone https://github.com/你的github用户名/github仓库名.git
+git add Readme_new
+git commit -m 'add new readme file'
+git commit -a
+git push origin master
+
