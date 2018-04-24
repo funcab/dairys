@@ -17,15 +17,15 @@ EOF
 
 ### 3. judge is empty or not
 
-```trim```: remove a blank each for side left and right
+```trim``` : remove a blank each for side left and right
 
-```''```:length(xxx) <> 0
+```''``` : length(xxx) <> 0
 
-```null```:is not null
+```null``` : is not null
 
-if a='',then a is not null,but a is empty,so we use length(a)<>0 to limit a is not empty;
-if a=null,then a is not null,and a is empty at the same time.
-so to limit a is not empty,use 
+if a='' , then a is not null , but a is empty , so we use length(a)<>0 to limit a is not empty ;
+if a=null , then a is not null , and a is empty at the same time .
+so to limit a is not empty , use 
 ```length(trim(a))<>0 and a is not null```
 
 ### 4. about join
@@ -34,15 +34,15 @@ so to limit a is not empty,use
 #### Left/right/full (outer) join [where …]
 
 
-#### ```semi join```
+#### semi join
 it serves for the situation that table a to aquire datas which agree conditions refer to table b
-finally,it only will return table a's selected datas
+finally , it only will return table a's selected datas
 fammiliar to in/exsits's usage
 
 #### map join
 
 ```set hive.auto.convert.join = true;``` #default false
 
-on this setting,the script will use map join automatically at little table circumstances
+on this setting , the script will use map join automatically at little table circumstances
 
 
