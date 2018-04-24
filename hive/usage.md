@@ -1,10 +1,11 @@
 ### 1.create table
-'''
+```
 row format delimited
 fields terminated by '|'
 lines terminated by '\n'
 stored as textfile;
-'''
+```
+
 2.when use beeline
 
 run="/home/edc_jk/sparkForThrift/bin/beeline -u \"jdbc:hive2://hnedaint06:10001/default;principal=edc_jk/admin@NBDP.COM\""
