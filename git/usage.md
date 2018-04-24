@@ -20,7 +20,8 @@ paste it on Settings-ssh and GPG keys-new SSH key-ok
 vi ~/.gitconfig
 ```
 
-after added the following contents,the next time you enter your username and password,
+after added the following contents , the next time you enter your username and password  ,
+
 git can remember that and you won't have to enter later
 ```
 [credential]
