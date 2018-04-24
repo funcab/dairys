@@ -24,7 +24,9 @@ EOF
 ```null``` : is not null
 
 if a='' , then a is not null , but a is empty , so we use length(a)<>0 to limit a is not empty ;
+
 if a=null , then a is not null , and a is empty at the same time .
+
 so to limit a is not empty , use 
 ```length(trim(a))<>0 and a is not null```
 
@@ -36,7 +38,9 @@ so to limit a is not empty , use
 
 #### semi join
 it serves for the situation that table a to aquire datas which agree conditions refer to table b
+
 finally , it only will return table a's selected datas
+
 fammiliar to in/exsits's usage
 
 #### map join
