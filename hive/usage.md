@@ -41,7 +41,7 @@ it serves for the situation that table a to aquire datas which agree conditions 
 
 finally , it only will return table a's selected datas
 
-fammiliar to in/exsits's usage
+similar to in/exsits's usage
 
 #### map join
 
