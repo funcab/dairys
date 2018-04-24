@@ -15,6 +15,12 @@ more id_rsa.pub
 
 paste it on Settings-ssh and GPG keys-new SSH key-ok
 
+vi ~/.gitconfig
+add follow contents,so that the next time you enter your username and password,
+git can remember that message and you won't have to enter the next time
+[credential]
+    helper = store
+
 2.change password
 
 cd ~/.ssh/
