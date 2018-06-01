@@ -55,3 +55,19 @@ git commit -a
 git push origin master
 ```
 
+# while made change at github_web
+```
+git pull origin master
+```
+
+# while mkdir at server then push
+remember that the new dir should'not be emply to add to git
+```
+mkdir linux
+cd linux
+touch readme
+cd ..
+git add linux
+git commit -m 'add linux'
+git push origin master
+```
