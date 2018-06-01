@@ -36,7 +36,7 @@ so to limit a is not empty , use
 #### Left/right/full (outer) join [where …]
 
 
-#### semi join
+#### Semi join
 it serves for the situation that table a to aquire datas which agree conditions refer to table b
 
 finally , it only will return table a's selected datas
