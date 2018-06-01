@@ -1,4 +1,4 @@
-# install
+# Install
 ```
 sudo apt-get update 
 sudo apt-get install git
@@ -28,14 +28,14 @@ git can remember that and you won't have to enter later
     helper = store
 ```
 
-# change password
+# Change password
 ```
 cd ~/.ssh/
 ssh-keygen -f id_rsa -p
 cd ~/Document/dockerfiles
 ```
 
-# start a repository
+# Start a repository
 ```
 git init
 touch Readme
@@ -46,7 +46,7 @@ git remote add origin https://github.com/your_github_name/your_github_repository
 git push origin master
 ```
 
-# clone a repository
+# Clone a repository
 ```
 git clone https://github.com/your_github_name/your_github_repository_name.git
 git add Readme_new
@@ -55,12 +55,12 @@ git commit -a
 git push origin master
 ```
 
-# after made change at master branch
+# After made change at master branch
 ```
 git pull origin master
 ```
 
-# after mkdir 
+# After mkdir 
 remember that the new dir should'not be emply to add to git
 ```
 mkdir linux
