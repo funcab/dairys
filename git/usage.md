@@ -55,12 +55,12 @@ git commit -a
 git push origin master
 ```
 
-# while made change at github_web
+# after made change at master branch
 ```
 git pull origin master
 ```
 
-# after mkdir
+# after mkdir 
 remember that the new dir should'not be emply to add to git
 ```
 mkdir linux
