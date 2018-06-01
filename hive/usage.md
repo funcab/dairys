@@ -1,4 +1,4 @@
-# create table
+# Create table
 ```
 row format delimited
 fields terminated by '|'
@@ -6,7 +6,7 @@ lines terminated by '\n'
 stored as textfile;
 ```
 
-# when use beeline
+# When use beeline
 ```
 run="/bin/beeline -u \"jdbc:hive2://hnedaint06:10001/default;principal=edc_jk/admin@NBDP.COM\""
 ${run}<<EOF
@@ -15,7 +15,7 @@ ${vsql}
 EOF
 ```
 
-# judge is empty or not
+# Judge is empty or not
 
 ```trim``` : remove a blank each for side left and right
 
@@ -30,7 +30,7 @@ if a=null , then a is not null , and a is empty at the same time .
 so to limit a is not empty , use 
 ```length(trim(a))<>0 and a is not null```
 
-# about join
+# About join
 
 #### (inner) join
 #### Left/right/full (outer) join [where …]
@@ -43,7 +43,7 @@ finally , it only will return table a's selected datas
 
 similar to in/exsits's usage
 
-#### map join
+#### Map join
 
 ```set hive.auto.convert.join = true;``` #default false
 
