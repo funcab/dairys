@@ -60,7 +60,7 @@ git push origin master
 git pull origin master
 ```
 
-# After mkdir 
+# While mkdir 
 remember that the new dir should'not be emply to add to git
 ```
 mkdir linux
