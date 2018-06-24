@@ -71,3 +71,11 @@ git add linux
 git commit -m 'add linux'
 git push origin master
 ```
+
+# While delete
+```
+rm *.xml
+git rm *.xml
+git commit -m "delete *.xml"
+git push origin master
+```
