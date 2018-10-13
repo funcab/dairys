@@ -43,7 +43,9 @@ git add Readme
 git commit -m 'add readme file'
 connect local repository with github repository：
 git remote add origin https://github.com/your_github_name/your_github_repository_name.git
-git push origin master
+git push origin master/ git push -f origin master
+//if it not works using -f force it to push
+
 ```
 
 # Clone a repository
